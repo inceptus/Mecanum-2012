@@ -11,7 +11,7 @@ package org.inceptus;
 import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
-import org.inceptus.commands.ExampleCommand;
+import org.inceptus.commands.TankDrive;
 import org.inceptus.subsystems.ExampleSubsystem;
 
 /**
@@ -31,7 +31,7 @@ public class Mecanum extends IterativeRobot {
      */
     public void robotInit() {
         // instantiate the command used for the autonomous period
-        autonomousCommand = new ExampleCommand();
+        autonomousCommand = new TankDrive();
 
         // create the instance of the operator interface class
         // this will associate all the buttons with the appropriate commands

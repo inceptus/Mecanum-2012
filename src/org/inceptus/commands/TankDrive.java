@@ -10,9 +10,9 @@ import edu.wpi.first.wpilibj.command.Command;
  *
  * @author bradmiller
  */
-public class ExampleCommand extends Command {
+public class TankDrive extends Command {
 
-    public ExampleCommand() {
+    public TankDrive() {
         // Use requires() here to declare subsystem dependencies
         // eg. requires(chassis);
     }
